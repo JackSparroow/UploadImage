@@ -1,6 +1,7 @@
 {
     "name": "codestacx/uploaders",
     "description": "This package is used to upload files to the server",
+    "version":     "1.0.5",
     "type": "library",
     "license": "MIT",
     "authors": [
