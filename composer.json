@@ -1,0 +1,31 @@
+{
+    "name": "codestacx/uploaders",
+    "description": "This package is used to upload files to the server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JackSparroow",
+            "email": "muhammadatif.pucit@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "Codestacx\\Uploaders\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codestacx\\Uploaders\\UploaderServiceProvider"
+            ],
+            "aliases": {
+                "Fileuploader" : "Codestacx\\Uploaders\\Facades\\UploaderFacade",
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
