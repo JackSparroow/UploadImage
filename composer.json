@@ -1,5 +1,5 @@
 {
-    "name": "muhammadatifakram/uploaders",
+    "name": "codestacx/uploaders",
     "description": "This package is used to upload files to the server",
     "type": "library",
     "license": "MIT",
@@ -27,8 +27,7 @@
         }
     },
 
-    "require": {},
     "prefer-stable": true,
+    "require": {}
 
-    "minimum-stability": "dev"
 }
