@@ -21,8 +21,8 @@
                 "Codestacx\\Uploaders\\UploaderServiceProvider"
             ],
             "aliases": {
-                "Fileuploader" : "Codestacx\\Uploaders\\Facades\\UploaderFacade",
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Fileuploader" : "Codestacx\\Uploaders\\Facades\\UploaderFacade"
+
             }
         }
     },
