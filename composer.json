@@ -28,6 +28,6 @@
     },
 
     "prefer-stable": true,
-    "require": {}
-
+    "require": {},
+    "minimum-stability": "stable"
 }
