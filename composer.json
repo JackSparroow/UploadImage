@@ -1,7 +1,7 @@
 {
     "name": "codestacx/uploaders",
     "description": "This package is used to upload files to the server",
-    "version":     "1.0.5",
+    "version":     "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -29,6 +29,8 @@
     },
 
     "prefer-stable": true,
-    "require": {},
-    "minimum-stability": "stable"
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev"
 }
